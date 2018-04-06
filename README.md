@@ -1,13 +1,17 @@
 # Rio/OS
 
-Worlds only cloud operating sytem
+Worlds only private cloud operating sytem
 
-This is a repository acts a placeholder for links. 
+This repository contains **Rio/OS CLI** releases only. 
 
-This repository has releases for the CLI.
-
-# API
+For more information [Rio.Digital](http://rio.digital)
 
 # DOCS
 
+Refer [Link](https://bit.ly/rioos_sh_user_guide)
+
 # CLI
+
+The platform supported is Linux.
+
+[Releases](https://github.com/rioadvancement/rioos/releases)
