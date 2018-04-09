@@ -1,0 +1,35 @@
+---
+# ================================================================
+# Network Information
+# ================================================================
+network:
+  object_meta:
+    name: 'public-ipv4' # network name
+    account: '' # account_id of the user
+  network_type: 'public_ipv4' # public_ipv4,public_ipv6
+  subnet_ip: '192.198.89.200/29'
+  netmask: '255.255.255.248'
+  gateway: '192.198.89.201'
+  status:
+    phase: ready
+  bridge_hosts: {"956391570351857664":"riopub"} # node_ip with its bridge name
+
+# ================================================================
+# Datacenter Information
+# ================================================================
+datacenter:
+  nodes:
+  - '956391570351857664' # required atleast node_id
+  storage: '956393430500515840' # required  storage_id
+  networks:
+  - '' # required atleast network_id
+  enabled: true
+  flag: ''
+  currency: ''
+  status:
+    phase: ready
+  object_meta:
+    name: 'newyork' #  name of the datacenter
+    account: ''
+  advanced_settings: {"country":"USA"}
+
