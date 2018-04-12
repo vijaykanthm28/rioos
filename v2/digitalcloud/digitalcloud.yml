@@ -1,0 +1,22 @@
+# ================================================================
+# Deploy Information
+# ================================================================
+---
+assembly_factory:
+  object_meta:
+    name: ubuntu01.riobox.com
+    account: '958507786973503488'
+    cluster_name: newyork
+  replicas: 1
+  resources:
+    compute_type: cpu
+    storage_type: hdd
+    cpu: '1'
+    memory: 1 GiB
+    storage: 5 GiB
+    public_ipv4: 'true'
+  secret:
+    id: '958539454463729664'
+  plan: '958482007841579008'
+  status:
+    phase: pending

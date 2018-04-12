@@ -1,0 +1,34 @@
+---
+# ================================================================
+# Network Information
+# ================================================================
+network:
+  object_meta:
+    name: 'private-ipv4' # network name
+    account: '' # account_id of the user
+  network_type: 'private_ipv4' # public_ipv4,public_ipv6
+  subnet_ip: '192.168.1.0/24'
+  netmask: '255.255.255.0'
+  gateway: '192.168.1.1'
+  status:
+    phase: ready
+  bridge_hosts: {"958568524664553472":"riopri"} # node_ip with its bridge name
+# ================================================================
+# Datacenter Information
+# ================================================================
+datacenter:
+  nodes:
+  - '958568524664553472' # required atleast node_id
+  storage: '958500699346313216' # required  storage_id
+  networks:
+  - '' # required atleast network_id
+  enabled: true
+  flag: ''
+  currency: ''
+  status:
+    phase: ready
+  object_meta:
+    name: 'los-angeles' #  name of the datacenter
+    account: ''
+  advanced_settings: {"country":"USA"}
+
